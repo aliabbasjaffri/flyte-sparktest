@@ -1,4 +1,4 @@
 torch==1.13.1
 flytekit==1.2.4
-pyspark==3.2.1
+pyspark==3.4.0
 flytekitplugins-spark==1.2.4

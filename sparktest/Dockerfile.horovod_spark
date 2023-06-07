@@ -69,7 +69,7 @@ RUN sed -i 's/[ #]\(.*StrictHostKeyChecking \).*/ \1no/g' /etc/ssh/ssh_config &&
   sed -i 's/#\(StrictModes \).*/\1no/g' /etc/ssh/sshd_config
 
 # Horovod-related installations
-RUN pip install pyspark==3.2.1
+RUN pip install pyspark==3.4.0
 # https://stackoverflow.com/questions/72441758/typeerror-descriptors-cannot-not-be-created-directly
 RUN pip install protobuf==3.20.*
 # taken from https://github.com/tensorflow/tensorflow/issues/52845#issuecomment-1025015276 as official tensorflow does not support

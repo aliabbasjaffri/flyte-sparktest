@@ -1,4 +1,4 @@
 flytekit==1.2.4
-pyspark==3.2.1
+pyspark==3.4.0
 flytekitplugins-spark==1.2.4
 s3fs==2022.11.0
